@@ -1,0 +1,54 @@
+Python
+Programowanie Funkcyjne
+ElasticSearch
+Debian - Przygotowanie oprogramowania
+Debian and Derivatives Packaging and Bug Squashing Party
+Docker
+Test-Driven Development
+Profilowanie kodu (w Linuksie)
+Git
+C
+C++
+Java
+PHP
+C#
+Objective-C
+JavaScript
+Visual Basic
+.NET
+Ruby
+Transact-SQL
+Perl
+F#
+Jêzyk asemblera
+Lisp
+PL/SQL
+MATLAB
+Delphi/Object
+Pascal
+D
+Erlang
+Scala
+Chiñski
+Hiszpañski
+Angielski
+Arabski
+Hindi
+Bengalski
+Portugalski
+Rosyjski
+Japoñski
+Niemiecki
+Warsztaty œpiewu gard³owego i alikwotowego
+Warsztaty Tañca
+Warsztaty muzyczne
+Warsztaty œpiewu
+Warszaty gry na bêbnach
+Prokrastynacja i jej przejawy w codziennoœci
+Analiza odk³adanych zadañ
+Analiza powodów prokrastynacji
+Radzenie sobie z prokrastynacj¹
+Analiza i zmiana negatywnych myœli
+Porz¹dkowanie wartoœci (motywatorów)
+Wzmacnianie wewnêtrznej motywacji
+Proces podejmowania decyzji

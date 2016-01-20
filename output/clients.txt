@@ -1,0 +1,100 @@
+exec addClient Kacper, Jasiński, Wąbrzeźno, Mielczarskiego, 33, 92-530, kacperjasinski@interia.pl
+exec addClient Aniela, Kowalczyk, Skoczów, Radzymińska, 184, 85-166, anielakowalczyk@gmail.com
+exec addClient Agnieszka, Piotrowska, Piotrków Kujawski, Jugosłowiańska, 1, 94-221, agnieszkapiotrowska@gmail.com
+exec addClient Katarzyna, Wilk, Żuromin, Kotlarska, 96, 39-810, katarzynawilk@gmail.com
+exec addClient Angelika, Jakubowska, Pruchnik, Bielskiego, 148, 21-976, angelikajakubowska@onet.pl
+exec addClient Cecylia, Bąk, Chodzież, Zamieniecka, 115, 42-164, cecyliabak@gmail.com
+exec addClient Apolinary, Szulc, Książ Wielkopolski, Zaściankowa, 195, 52-388, apolinaryszulc@wp.pl
+exec addClient Magda, Kaczmarek, Zawichost, Agrykola, 41, 44-552, magdakaczmarek@gmail.com
+exec addClient Weronika, Sikora, Dobiegniew, Leśna, 153, 85-715, weronikasikora@gmail.com
+exec addClient Maja, Ostrowska, Młynary, Berneńska, 32, 55-433, majaostrowska@gmail.com
+exec addClient Iwona, Michalak, Wschowa, Krasińskiego, 25, 62-852, iwonamichalak@gmail.com
+exec addClient Anita, Urbańska, Kalwaria Zebrzydowska, Bugaj, 41, 12-865, anitaurbanska@gmail.com
+exec addClient Wawrzyniec, Krawczyk, Kraków, Wysockiego, 29, 25-100, wawrzynieckrawczyk@onet.pl
+exec addClient Berta, Pietrzak, Węgliniec, Winiarska, 67, 47-287, bertapietrzak@interia.pl
+exec addClient Weronika, Michalska, Wisła, Opaczewska, 141, 84-889, weronikamichalska@gmail.com
+exec addClient Łukasz, Król, Kańczuga, Piwna, 98, 58-666, lukaszkrol@onet.pl
+exec addClient Karolina, Szczepańska, Sędziszów, Gwarków, 183, 26-659, karolinaszczepanska@onet.pl
+exec addClient Kazimierz, Wieczorek, Gryfino, Szembeka, 148, 83-628, kazimierzwieczorek@gmail.com
+exec addClient Eleonora, Zawadzka, Tyszowce, Tylżycka, 4, 89-339, eleonorazawadzka@wp.pl
+exec addClient Dionizy, Marciniak, Siechnice, Twardowska, 96, 66-795, dionizymarciniak@wp.pl
+exec addClient Kamil, Pietrzak, Chojna, Toeplitza, 174, 29-284, kamilpietrzak@wp.pl
+exec addClient Adam, Grabowski, Chełmek, Rudzka, 51, 36-195, adamgrabowski@interia.pl
+exec addClient Augustyn, Jasiński, Młynary, Trakt Brzeski, 84, 58-135, augustynjasinski@onet.pl
+exec addClient Ida, Kowalczyk, Oleśnica, Kościuszkowców, 125, 63-969, idakowalczyk@gmail.com
+exec addClient Huberta, Krawczyk, Orzesze, Słomińskiego, 166, 69-531, hubertakrawczyk@interia.pl
+exec addClient Feliks, Jasiński, Ozorków, Opalińska, 83, 84-670, feliksjasinski@wp.pl
+exec addClient Ambroży, Brzeziński, Tczew, Budowlana, 21, 49-112, ambrozybrzezinski@onet.pl
+exec addClient Wiktoria, Kowalska, Cedynia, Nad Wilanówką, 196, 66-615, wiktoriakowalska@gmail.com
+exec addClient Szymon, Grabowski, Leśnica, Chrzanowskiego, 57, 71-478, szymongrabowski@onet.pl
+exec addClient Julia, Jabłońska, Kamieńsk, Daleka, 149, 20-856, juliajablonska@interia.pl
+exec addClient Marta, Wilk, Krzeszowice, Dobrogniewa, 53, 57-832, martawilk@interia.pl
+exec addClient Honorata, Sikora, Sanok, Jasińskiego, 13, 42-812, honoratasikora@wp.pl
+exec addClient Daniela, Wojciechowska, Katowice, Meksykańska, 55, 68-349, danielawojciechowska@wp.pl
+exec addClient Kinga, Pietrzak, Piła, Rzymska, 152, 35-998, kingapietrzak@gmail.com
+exec addClient Aldona, Zawadzka, Orneta, Znicza, 111, 13-443, aldonazawadzka@wp.pl
+exec addClient Jadwiga, Makowska, Lubawka, Klaudyny, 179, 81-236, jadwigamakowska@wp.pl
+exec addClient Aleksandra, Michalak, Gryfice, Osmańczyka, 34, 76-723, aleksandramichalak@interia.pl
+exec addClient Daniela, Szewczyk, Pilawa, Becka, 164, 10-959, danielaszewczyk@onet.pl
+exec addClient Marcin, Grabowski, Kock, Zajęcza, 16, 86-380, marcingrabowski@wp.pl
+exec addClient Łukasz, Głowacki, Głuszyca, Corazziego, 96, 49-193, lukaszglowacki@wp.pl
+exec addClient Maria, Pietrzak, Radomyśl Wielki, Szafranów, 35, 68-470, mariapietrzak@interia.pl
+exec addClient Antoni, Szewczyk, Biała Podlaska, Bieniewicka, 125, 89-513, antoniszewczyk@wp.pl
+exec addClient Lucyna, Krawczyk, Międzylesie, Roentgena, 58, 47-899, lucynakrawczyk@wp.pl
+exec addClient Czesława, Baran, Krynica-Zdrój, Olszynki Grochowskiej, 141, 66-211, czeslawabaran@onet.pl
+exec addClient Beata, Makowska, Złocieniec, Twardowskiego, 4, 41-516, beatamakowska@onet.pl
+exec addClient Leopold, Wójcik, Rogoźno, Grzybowska, 67, 77-580, leopoldwojcik@interia.pl
+exec addClient Stanisław, Wojciechowski, Bisztynek, Trentowskiego, 44, 62-315, stanislawwojciechowski@onet.pl
+exec addClient Matylda, Głowacka, Dzierżoniów, Szucha, 46, 76-996, matyldaglowacka@onet.pl
+exec addClient Adam, Rutkowski, Wadowice, Malczewskiego, 34, 52-212, adamrutkowski@interia.pl
+exec addClient Helena, Olszewska, Strzelno, Miedzianogórska, 57, 45-216, helenaolszewska@interia.pl
+exec addClient Barbara, Szymczak, Lubniewice, Rzymowskiego, 50, 41-474, barbaraszymczak@wp.pl
+exec addClient Genowefa, Górska, Pieniężno, Poznańska, 25, 38-932, genowefagorska@gmail.com
+exec addClient Marta, Duda, Woźniki, Orla, 109, 72-688, martaduda@gmail.com
+exec addClient Alina, Sawicka, Kłodawa, Koźmiana, 130, 12-306, alinasawicka@interia.pl
+exec addClient Feliks, Kowalski, Iwonicz-Zdrój, Lanciego, 174, 56-930, felikskowalski@interia.pl
+exec addClient Danuta, Jaworska, Kowalewo Pomorskie, Kopernika, 53, 81-175, danutajaworska@wp.pl
+exec addClient Kalina, Sikorska, Tuliszków, Mostowa, 50, 38-889, kalinasikorska@gmail.com
+exec addClient Aleksander, Wilk, Gostynin, Solskiego, 124, 48-495, aleksanderwilk@gmail.com
+exec addClient Małgorzata, Król, Mordy, Ostrzycka, 36, 98-947, malgorzatakrol@onet.pl
+exec addClient Iga, Wasilewska, Zduny, Odyńca, 166, 63-376, igawasilewska@interia.pl
+exec addClient Maciej, Piotrowski, Nowy Sącz, Górnośląska, 196, 34-580, maciejpiotrowski@gmail.com
+exec addClient Cecylia, Pawłowska, Rzgów, Bytomska, 58, 60-141, cecyliapawlowska@onet.pl
+exec addClient Kalina, Szulc, Drobin, Boguckiego, 75, 73-653, kalinaszulc@wp.pl
+exec addClient Ludmiła, Szewczyk, Jawor, Chodecka, 144, 57-387, ludmilaszewczyk@onet.pl
+exec addClient Mirosław, Stępień, Świecie, Belwederska, 85, 69-499, miroslawstepien@interia.pl
+exec addClient Lech, Dudek, Gubin, Bocheńska, 136, 35-781, lechdudek@interia.pl
+exec addClient Izabela, Cieślak, Gostynin, Ligocka, 198, 71-997, izabelacieslak@interia.pl
+exec addClient Magda, Wróblewska, Mikołajki, Dereniowa, 173, 38-554, magdawroblewska@onet.pl
+exec addClient Wacława, Kowalska, Lipsk, Handlowa, 112, 33-639, waclawakowalska@gmail.com
+exec addClient Rafał, Pawlak, Czersk, Foksal, 131, 12-602, rafalpawlak@gmail.com
+exec addClient Patrycja, Kaczmarek, Krynki, Kątowa, 48, 41-157, patrycjakaczmarek@gmail.com
+exec addClient Iza, Adamczyk, Zamość, Sarbiewskiego, 74, 56-751, izaadamczyk@onet.pl
+exec addClient Kamila, Makowska, Brzeszcze, Anielewicza, 121, 78-317, kamilamakowska@gmail.com
+exec addClient Bernadeta, Sikora, Sobótka, Lipska, 48, 94-268, bernadetasikora@gmail.com
+exec addClient Marek, Wróbel, Elbląg, Umińskiego, 89, 26-505, marekwrobel@wp.pl
+exec addClient Laura, Marciniak, Radzyń Chełmiński, Gwiaździsta, 69, 80-902, lauramarciniak@interia.pl
+exec addClient Klementyna, Sawicka, Kazimierz Dolny, Winiarska, 10, 12-737, klementynasawicka@interia.pl
+exec addClient Radosław, Sawicki, Trzemeszno, Modrzejewskiej, 106, 91-329, radoslawsawicki@gmail.com
+exec addClient Wioletta, Wieczorek, Glinojeck, Gojawiczyńskiej, 107, 25-910, wiolettawieczorek@gmail.com
+exec addClient Martyna, Wójcik, Czaplinek, Duchnicka, 5, 35-894, martynawojcik@wp.pl
+exec addClient Irena, Sadowska, Zielonka, Letnia, 39, 59-160, irenasadowska@onet.pl
+exec addClient Zdzisław, Kaźmierczak, Koronowo, Pereca, 35, 45-964, zdzislawkazmierczak@onet.pl
+exec addClient Monika, Jasińska, Kalwaria Zebrzydowska, Leśna, 140, 36-408, monikajasinska@onet.pl
+exec addClient Waldemar, Wróbel, Biłgoraj, Saska, 19, 44-741, waldemarwrobel@wp.pl
+exec addClient Iza, Kaczmarek, Miłakowo, Jasnodworska, 192, 17-616, izakaczmarek@interia.pl
+exec addClient Włodzimierz, Ostrowski, Gołańcz, Wirażowa, 45, 24-679, wlodzimierzostrowski@onet.pl
+exec addClient Monika, Sokołowska, Odolanów, Myśliwiecka, 142, 78-974, monikasokolowska@gmail.com
+exec addClient Edyta, Kowalska, Ćmielów, Rzeczypospolitej, 125, 88-213, edytakowalska@onet.pl
+exec addClient Włodzimierz, Olszewski, Kępno, Mickiewicza, 183, 41-222, wlodzimierzolszewski@onet.pl
+exec addClient Andrzej, Marciniak, Wągrowiec, Karłowicza, 146, 46-550, andrzejmarciniak@wp.pl
+exec addClient Jerzy, Wysocki, Odolanów, Szaflarska, 79, 19-116, jerzywysocki@gmail.com
+exec addClient Robert, Nowak, Olecko, Bora-Komorowskiego, 155, 32-153, robertnowak@onet.pl
+exec addClient Władysław, Marciniak, Warta, Stanów Zjednoczonych, 187, 26-412, wladyslawmarciniak@gmail.com
+exec addClient Emilia, Sokołowska, Biała Piska, Kleczewska, 17, 29-165, emiliasokolowska@onet.pl
+exec addClient Zdzisław, Krawczyk, Tarnogród, Próchnika, 54, 86-599, zdzislawkrawczyk@gmail.com
+exec addClient Matylda, Cieślak, Szlichtyngowa, Gawińskiego, 42, 76-225, matyldacieslak@interia.pl
+exec addClient Albin, Baran, Rydułtowy, Tykocińska, 87, 23-337, albinbaran@onet.pl
+exec addClient Edyta, Krawczyk, Łapy, Sienna, 153, 63-302, edytakrawczyk@gmail.com
+exec addClient Malwina, Ziółkowska, Dobra (powiat łobeski), Żwirki i Wigury, 166, 67-462, malwinaziolkowska@interia.pl
+exec addClient Daria, Kucharska, Pabianice, Wąski Dunaj, 20, 86-940, dariakucharska@wp.pl
