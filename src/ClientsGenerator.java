@@ -47,18 +47,18 @@ public class ClientsGenerator {
             companyID.set(rand, String.valueOf(i));
         }
 
-        for(int i=0; i<72; i++) {
+        /*for(int i=0; i<72; i++) {
             System.out.print(companyID.get(i) + " ");
-        }
+        }*/
     }
 
     public void generateClientsAndCompanies() {
-        for(int i=0; i<40; i++) {
+        for(int i=0; i<30; i++) {
             String company = generator.select(companies);
             companiesList.add(new Companies(company).toString());
         }
 
-        for(int i=0; i<72; i++) {
+        for(int i=0; i<50; i++) {
             String name = generator.select(names);
             String lastName = generator.select(lastNames);
             String city = generator.select(cities);

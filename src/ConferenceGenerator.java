@@ -6,30 +6,35 @@ import java.util.ArrayList;
 public class ConferenceGenerator {
 
     Generator generator = new Generator();
-    ArrayList<String> conferenceNames;
     ArrayList<String> cities;
     ArrayList<String> streets;
 
     ArrayList<String> conferencesList;
+    ArrayList<String> startEndDates;
 
     public ConferenceGenerator() {
-        //this.conferenceNames = generator.readFile("data/conferences.txt");
         this.cities = generator.readFile("data/cities.txt");
         this.streets = generator.readFile("data/streets.txt");
 
         conferencesList = new ArrayList<>();
+        startEndDates = new ArrayList<>();
     }
 
     public void generateConferences() {
-        for(int i=0; i<200; i++) {
-            String conferenceName = generator.select(conferenceNames);
+        for(int i=1; i<72; i++) {
             String city = generator.select(cities);
             String street = generator.select(streets);
-            conferencesList.add(new Conference(conferenceName, city, street).toString());
+            Conference c = new Conference(city, street, i);
+            conferencesList.add(c.toString());
+            startEndDates.add(c.getStartEndDates());
         }
     }
 
     public ArrayList<String> getConferencesList() {
         return conferencesList;
+    }
+
+    public ArrayList<String> getStartEndDates() {
+        return startEndDates;
     }
 }
