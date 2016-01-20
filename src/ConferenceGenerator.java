@@ -21,7 +21,7 @@ public class ConferenceGenerator {
     }
 
     public void generateConferences() {
-        for(int i=1; i<72; i++) {
+        for(int i=1; i<73; i++) {
             String city = generator.select(cities);
             String street = generator.select(streets);
             Conference c = new Conference(city, street, i);

@@ -86,7 +86,7 @@ public class Conference {
     }
 
     public String toString() {
-        return "exec addConference '" + this.conferenceName + "', '" + this.city + "', '" + this.postalCode + "', '" +
+        return "exec AddConference '" + this.conferenceName + "', '" + this.city + "', '" + this.postalCode + "', '" +
                 this.street + "', " + this.localNumber + ", " + this.startDate + ", " + this.endDate + '\n';
     }
 
