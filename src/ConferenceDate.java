@@ -97,4 +97,28 @@ public class ConferenceDate {
         return ub.toString();
     }
 
+    public String getDate() {
+
+        StringBuilder ub = new StringBuilder();
+
+        for(String s: dateArray) {
+            ub.append(s).append("\n");
+        }
+
+        return ub.toString();
+    }
+
+    public String getCapacityAndDate() {
+
+        StringBuilder ub = new StringBuilder();
+
+        int i = 0;
+        for(String s: dateArray) {
+            ub.append(this.capacity).append(" ").append(dateArray.get(i)).append("\n");
+            i++;
+        }
+
+        return ub.toString();
+    }
+
 }

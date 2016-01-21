@@ -16,12 +16,15 @@ public class Workshops {
     private String studentDiscount;
     private StringBuilder sb = new StringBuilder();
     private ArrayList<String> workshopNames;
+    private String capacityDateWorkshopString;
 
-    public Workshops(int conferenceDateID, int capacity) {
+    public Workshops(int conferenceDateID, int capacity, String capacityAndDate) {
         Generator generator = new Generator();
         this.workshopNames = generator.readFile("data/workshops.txt");
         Random random = new Random();
         this.conferenceDateID = conferenceDateID;
+        StringBuilder capacityDateWorkshops = new StringBuilder();
+        capacityDateWorkshops.append(capacityAndDate);
 
         int numOfWorkshops = random.nextInt(5);
         for(int i=0; i<numOfWorkshops; i++) {
@@ -35,13 +38,20 @@ public class Workshops {
             int hourEnd = hour + random.nextInt(3)+1;
             this.endHour = hourEnd/10 + "" + hourEnd%10 + ":00:00";
             sb.append("exec AddWorkshop " + this.conferenceDateID + ", '" + this.workshopName + "', " +
-            this.capacity + ", " + this.location + ", " + this.startHour + ", " + this.endHour + ", " +
-            this.price + ", " + this.studentDiscount + "\n");
+                    this.capacity + ", " + this.location + ", " + this.startHour + ", " + this.endHour + ", " +
+                    this.price + ", " + this.studentDiscount + "\n");
+            capacityDateWorkshops.append(" ").append(this.capacity);
         }
 
+        capacityDateWorkshops.append("\n");
+        capacityDateWorkshopString = capacityDateWorkshops.toString();
     }
 
     public String toString() {
         return sb.toString();
+    }
+
+    public String getCapacityDateWorkshop() {
+        return capacityDateWorkshopString;
     }
 }

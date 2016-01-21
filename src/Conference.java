@@ -25,6 +25,7 @@ public class Conference {
 
     public void generateDate() {
         Random r = new Random();
+        boolean alreadySet = false;
         int[] date = new int[3];
         int yearNumber = r.nextInt(2);
         date[0] = 2013 + yearNumber;
@@ -50,6 +51,7 @@ public class Conference {
                 endDateArray[2] = (date[2] + day)%28;
                 endDateArray[1] = date[1] + 1;
                 endDateArray[0] = date[0];
+                alreadySet = true;
             }
         }
         if((date[2] + day) > 30) {
@@ -57,37 +59,40 @@ public class Conference {
                 endDateArray[2] = (date[2] + day)%30;
                 endDateArray[1] = date[1] + 1;
                 endDateArray[0] = date[0];
+                alreadySet = true;
             }
         }
-            if((date[2] + day) > 31) {
-                if(date[1] == 12) {
-                    endDateArray[2] = (date[2] + day)%31;
-                    endDateArray[1] = 1;
-                    endDateArray[0] = date[0] + 1;
-                }
-                else {
-                    endDateArray[2] = (date[2] + day)%31;
-                    endDateArray[1] = date[1] + 1;
-                    endDateArray[0] = date[0];
-                }
+        if((date[2] + day) > 31 && ((date[1] == 1 || date[1] == 3 || date[1] == 5 || date[1] == 7 || date[1] == 8 || date[1] == 10 || date[1] == 12))) {
+            if(date[1] == 12) {
+                endDateArray[2] = (date[2] + day)%31;
+                endDateArray[1] = 1;
+                endDateArray[0] = date[0] + 1;
+                alreadySet = true;
             }
             else {
-                endDateArray[2] = date[2] + day;
-                endDateArray[1] = date[1];
+                endDateArray[2] = (date[2] + day)%31;
+                endDateArray[1] = date[1] + 1;
                 endDateArray[0] = date[0];
+                alreadySet = true;
             }
+        }
+        else if((date[2] + day) <32 && !alreadySet) {
+            endDateArray[2] = date[2] + day;
+            endDateArray[1] = date[1];
+            endDateArray[0] = date[0];
+        }
 
             System.out.println(endDateArray[0] + " " + endDateArray[1] + " " + endDateArray[2]);
 
 
         this.startDate = date[0] + "-" + date[1]/10 + date[1]%10 + "-" + date[2]/10 + date[2]%10;
-        this.endDate = endDateArray[0] + "-" + endDateArray[1]/10 + date[1]%10 + "-" + endDateArray[2]/10 + endDateArray[2]%10;
+        this.endDate = endDateArray[0] + "-" + endDateArray[1]/10 + endDateArray[1]%10 + "-" + endDateArray[2]/10 + endDateArray[2]%10;
 
     }
 
     public String toString() {
         return "exec AddConference '" + this.conferenceName + "', '" + this.city + "', '" + this.postalCode + "', '" +
-                this.street + "', " + this.localNumber + ", " + this.startDate + ", " + this.endDate + '\n';
+                this.street + "', " + this.localNumber + ", '" + this.startDate + "', '" + this.endDate + "'" + '\n';
     }
 
     public String getStartEndDates() {
