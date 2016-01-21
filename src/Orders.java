@@ -32,6 +32,7 @@ public class Orders {
         }
         this.conferenceDateID = conferenceDate;
         this.clientsCounter = clientsCounter;
+        this.workshopDateID = workshopsCounter;
 
         /*int numberOfOrders = random.nextInt(4)+1;
         for(int i=0; i<numberOfOrders; i++) {
@@ -80,11 +81,16 @@ public class Orders {
                 result.append(newAmount).append(", ");
                 wholeCapacity-=newAmount;
 
+                result.append("null, ");
+
                 studentsAmount = Math.min(random.nextInt(studentsAmount/numberOfOrders + 1), newAmount);
                 result.append(studentsAmount).append("\n");
             }
-            clientsCounter++;
-            workshopsCounter+=workshopCapacities.size();
+            this.clientsCounter++;
+            if(this.clientsCounter%73 == 0) {
+                this.clientsCounter = 1;
+            }
+            this.workshopsCounter+=workshopCapacities.size();
         }
 
     }
