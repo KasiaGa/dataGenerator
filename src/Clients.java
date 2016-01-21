@@ -55,7 +55,7 @@ public class Clients {
     }
 
     public String toString() {
-        return "exec addClient " + this.companyID + ", '" + this.name + "', '" + this.lastName + "', '" + this.mail + "', '" +
+        return "exec AddClient " + this.companyID + ", '" + this.name + "', '" + this.lastName + "', '" + this.mail + "', '" +
                 this.city + "', '" + this.postalCode + "', '" + this.street + "', '" + this.localNumber + "'" + '\n';
     }
 

@@ -13,9 +13,11 @@ public class Main {
         ClientsGenerator clientsGenerator = new ClientsGenerator();
         ConferenceGenerator conferenceGenerator = new ConferenceGenerator();
         ConferenceDateGenerator conferenceDateGenerator = new ConferenceDateGenerator();
+        WorkshopsGenerator workshopsGenerator = new WorkshopsGenerator();
         clientsGenerator.generateClientsAndCompanies();
         conferenceGenerator.generateConferences();
         conferenceDateGenerator.generateConferenceDate();
+        workshopsGenerator.generateWorkshops();
 
         ArrayList<String> clients = clientsGenerator.getClientsList();
         ArrayList<String> companies = clientsGenerator.getCompaniesList();
@@ -23,6 +25,7 @@ public class Main {
         ArrayList<String> startEndDates = conferenceGenerator.getStartEndDates();
         ArrayList<String> conferenceDates = conferenceDateGenerator.getConferenceDateList();
         ArrayList<String> capacity = conferenceDateGenerator.getCapacityList();
+        ArrayList<String> workshops = workshopsGenerator.getWorkshopsList();
 
         PrintWriter writerClients = null;
         PrintWriter writerCompanies = null;
@@ -30,6 +33,7 @@ public class Main {
         PrintWriter writerStartEndDates = null;
         PrintWriter writerConferenceDate = null;
         PrintWriter writerCapacity = null;
+        PrintWriter writerWorkshops = null;
         try {
             writerClients = new PrintWriter("output/clients.sql", "UTF-8");
             for(int i=0; i<clients.size(); i++) {
@@ -61,12 +65,18 @@ public class Main {
                 System.out.println(capacity.get(i));
                 writerCapacity.print(capacity.get(i));
             }
+            writerWorkshops = new PrintWriter("output/workshops.sql", "UTF-8");
+            for(int i=0; i<workshops.size(); i++) {
+                System.out.println(workshops.get(i));
+                writerWorkshops.print(workshops.get(i));
+            }
             writerClients.close();
             writerCompanies.close();
             writerConferences.close();
             writerStartEndDates.close();
             writerConferenceDate.close();
             writerCapacity.close();
+            writerWorkshops.close();
         } catch (FileNotFoundException | UnsupportedEncodingException e) {
             e.printStackTrace();
         }
